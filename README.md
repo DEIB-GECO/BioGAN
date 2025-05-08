@@ -25,7 +25,7 @@ Modern AI tools in genomics are limited by data scarcity, heterogeneity, acquisi
 - **Robust validation**: Multi-faceted evaluation pipeline including:
   - Classification accuracy on downstream tasks
   - Distributional similarity metrics (e.g., Wasserstein distance)
-  - Feature-level biological consistency checks
+  - Feature-level consistency checks
 
 ---
 

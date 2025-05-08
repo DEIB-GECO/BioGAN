@@ -4,7 +4,7 @@ BioGAN is a novel generative framework that integrates **Graph Neural Networks (
 
 This project accompanies the manuscript:
 
-> *"Graph-Informed Generative Modeling for Transcriptomic Data Synthesis" — Francesca Pia Panaccione et al., 2025 (preprint/manuscript link to be added)*
+> *"BioGAN: Enhancing Transcriptomic Data Generation with Biological Knowledges" — Francesca Pia Panaccione et al., 2025 (..)*
 
 ---
 
@@ -32,14 +32,12 @@ Modern AI tools in genomics are limited by data scarcity, heterogeneity, acquisi
 ## 📁 Repository Structure
 
 ```bash
-BioGAN/
-├── src/                    # Source code for models, training, utils
-│   ├── models/             # WGAN-GP and GNN modules
-│   ├── data/               # Dataloaders and preprocessing scripts
-│   ├── train.py            # Main training pipeline
-│   └── evaluate.py         # Evaluation scripts and metrics
-├── configs/                # YAML files for experimental configuration
-├── notebooks/              # Jupyter notebooks for exploration and plots
-├── results/                # Output figures, logs, and checkpoints
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
+src/
+├── BIOGAN_H2GCN/          # Experimental variant of BioGAN using H2GCN architecture
+├── BioGAN_GCN/            # Core BioGAN model implementation based on GCN
+├── wpgan/                 # Implementation of Wasserstein GAN with Gradient Penalty
+├── metrics/               # Evaluation metrics for synthetic data quality
+├── utils/                 # Utility functions (e.g., graph processing, logging)
+├── data_loader.py         # Scripts for preprocessing transcriptomic data
+├── losses.py              # Custom loss functions (Wasserstein, gradient penalty, etc.)
+├── train_model.py         # Main training script for the BioGAN model

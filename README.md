@@ -4,7 +4,7 @@ BioGAN is a novel generative framework that integrates **Graph Neural Networks (
 
 This project accompanies the manuscript:
 
-> *"BioGAN: Enhancing Transcriptomic Data Generation with Biological Knowledges" — Francesca Pia Panaccione et al., 2025 (..)*
+> *"BioGAN: Enhancing Transcriptomic Data Generation with Biological Knowledge - Francesca Pia Panaccione, Sofia Mongardi ,Marco Masseroli and Pietro Pinoli (under review)*
 
 ---
 

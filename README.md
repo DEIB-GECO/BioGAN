@@ -1,4 +1,4 @@
-# BioGAN: Graph-Informed Generative Modeling for Synthetic Transcriptomics Data
+# BioGAN: Enhancing Transcriptomic Data Generation with Biological Knowledge
 
 BioGAN is a novel generative framework that integrates **Graph Neural Networks (GNNs)** into a **Wasserstein Generative Adversarial Network with Gradient Penalty (WGAN-GP)** to generate biologically realistic synthetic transcriptomics data. The model leverages known gene-gene relationships to guide the generation process, aiming to improve the **biological plausibility**, **fairness**, and **privacy** of synthetic omics data. 
 
